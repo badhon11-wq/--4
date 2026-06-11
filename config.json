@@ -133,24 +133,24 @@
     "presence": false
   },
   "optionsFca": {
-    "online": true,
+    "online": false,
     "selfListen": true,
     "selfListenEvent": true,
     "listenEvents": true,
-    "listenTyping": true,
+    "listenTyping": false,
     "updatePresence": false,
     "autoMarkDelivery": false,
-    "autoMarkRead": true,
+    "autoMarkRead": false,
     "autoReconnect": true,
     "forceLogin": true,
-    "simulateTyping": true,
+    "simulateTyping": false,
     "randomUserAgent": false,
     "persona": "desktop",
     "stealthMode": true,
-    "maxConcurrentRequests": 5,
-    "maxRequestsPerMinute": 50,
-    "requestCooldownMs": 60000,
-    "errorCacheTtlMs": 300000,
+    "maxConcurrentRequests": 10,
+    "maxRequestsPerMinute": 60,
+    "requestCooldownMs": 5000,
+    "errorCacheTtlMs": 10000,
     "notes": "@lazyneoaz/metachat options — see node_modules/@lazyneoaz/metachat/README.md for full documentation"
   }
 }
